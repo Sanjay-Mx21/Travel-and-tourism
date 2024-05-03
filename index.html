@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Blog
+    
+  </title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      padding: 20px;
+      text-align: center;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    nav {
+      background-color:rgb(236, 241, 124);
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+    }
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    section {
+      padding: 20px;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    body{
+        
+        background-image: url(./soft\ color\ image.avif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #travel{font-style: italic;
+    font-size: medium ;}
+    h2{
+        font-size: xx-large;
+        color: darkgoldenrod ;
+    }
+   
+  </style>
+</head>
+<body>
+  <header>
+    <h1><u>Welcome To The Travel Blog</u> </h1>
+  </header>
+  <nav>
+    <ul>
+      
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#tips">Travel Tips</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="home">
+    <h2>Latest Posts</h2>
+    <p>Welcome to my travel blog. Follow along for travel stories, tips, and more!</p>
+    <!--the first image -->
+    <div class="badge text-bg-primary text-wrap" style="width: 6rem;">
+        <label for="image" class="btn-primary" style="color: darkorchid;" >BORA BORA</label>
+      </div>
+      
+
+    <img src="https://t1.gstatic.com/licensed-image?q=tbn:ANd9GcQpsxiEmuJz9pqCZtTT6nXaTaO5twh5oSmj12eFaUXuSHjI0fWGOXiKLxrypi0x-PRV"
+     class="rounded" alt="..." width="400px"> 
+     <br>
+      <!--the second image -->
+
+     <div class="badge text-bg-primary text-wrap" style="width: 6rem;">
+        <label for="image" class="btn-primary"  style="color: darkorchid;">GRANDCANYON </label>
+      </div> 
+      <img src="https://57hours.com/wp-content/uploads/2019/08/Grand-Canyon-Hiking.jpg" alt="canyon image " class="rounded" width="400px">
+      <br>
+<!--the arizona image -->
+    <div class="badge text-bg-primary text-wrap" style="width: 6rem;">
+    <label for="image" class="btn-primary"  style="color: darkorchid;">ARIZONA </label>
+    </div>
+    <img src="data:image/jpeg;base64,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" 
+    alt=""
+    width="400px"
+    > 
+
+<!--the insta redirection page -->
+    <p> For more exploration click the <a href="https://www.instagram.com/destination/">link</a></p>
+  </section>
+  <section id="destinations">
+    <h2>Popular Destinations</h2>
+    <p>Explore some of the most amazing places in the world <a href="destinations.html">here</a>.</p>
+    
+        
+    <!--travel section -->
+
+  </section>
+  <section id="tips">
+    <h2 id="tips">Travel Tips</h2>
+    <p>Useful tips and tricks to make your travels easier and more enjoyable.</p>
+    <p>Here are some essential travel tips to keep in mind:
+
+    <ul id="travel">
+            <li>Plan ahead: Research your destination, including local customs, culture, and any necessary travel documentation (visas, passports, etc.).</li>
+            <li>Pack wisely: Make a packing list and try to pack light, bringing only essentials. Don't forget important items like chargers, medications, and travel adapters.</li>
+            <li>Stay organized: Keep important documents (passport, tickets, reservations) in a secure, easily accessible place. Consider making digital copies as backups.</li>
+            <li>Stay safe: Be aware of your surroundings, especially in unfamiliar places. Avoid risky areas, and keep your belongings secure at all times.</li>
+            <li>Budget carefully: Set a budget for your trip and try to stick to it. Research local currency and exchange rates beforehand to avoid unnecessary fees.</li>
+            <li>Stay healthy: Stay hydrated, get enough rest, and eat balanced meals. If traveling to a foreign country, be cautious of tap water and street food hygiene.</li>
+            <li>Respect local customs: Learn about the culture and customs of the places you're visiting, and be respectful of local traditions and norms.</li>
+            <li>Stay connected: Keep in touch with family and friends back home, and consider getting a local SIM card or using international roaming for communication.</li>
+            <li>Stay flexible: Things may not always go as planned, so be prepared to adapt and have a backup plan if needed.</li>
+            <li>Enjoy the experience: Traveling is about exploring new places, meeting new people, and having new experiences. Embrace the journey and enjoy every moment!</li>
+        </ul>
+    </p>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>To contact click <a href="contakt-details.html">here</a>.</p>
+    
+    <p>Feel free to reach out for any queries or collaboration.</p>
+  </section>
+  <br><br>
+  <br>
+  <footer>
+    <p>&copy; 2024 The website is registered one </p>
+  </footer>
+  
+</body>
+</html>
